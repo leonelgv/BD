@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Base de Datos</string>
+    <string name="action_settings">Settings</string>
+    <string name="id_alumno">ID del Alumno:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidop">Apellido Paterno:</string>
+    <string name="apellidom">Apellido Materno:</string>
+    <string name="carrera">Carrera:</string>
+
+    <string name="Registrar">Registrar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="consulta">Consultar</string>
+    <string name="modificar">Modificar</string>
+    <string name="limpiar">Limpiar</string>
+
+</resources>

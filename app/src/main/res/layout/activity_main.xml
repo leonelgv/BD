@@ -1,0 +1,155 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".principal"
+    android:background="#ffffc7ef">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/id_alumno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff0d8f" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_idalumno"
+            android:inputType="phone"
+            android:digits="1234567890"
+            android:textColor="#ffff0d8f" />
+
+        <TextView
+            android:text="@string/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff0d8f" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_nombre"
+            android:textColor="#ffff0d8f" />
+
+        <TextView
+            android:text="@string/apellidop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff0d8f" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_apellidop"
+            android:textColor="#ffff0d8f" />
+
+        <TextView
+            android:text="@string/apellidom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff0d8f" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_apellidom"
+            android:textColor="#ffff0d8f" />
+
+        <TextView
+            android:text="@string/carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/carrera"
+            android:textColor="#ffff0d8f" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_carrera"
+            android:textColor="#ffff0d8f" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Registrar"
+                android:id="@+id/btn_registrar"
+                android:onClick="Registrar"
+                android:layout_weight="1"
+                android:background="#ffa5d0ff"
+                android:shadowColor="#ffff1693"
+                android:textColor="#fffffefa" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/consulta"
+                android:id="@+id/btn_consultar"
+                android:onClick="consulta"
+                android:layout_weight="1"
+                android:background="#ffa5d0ff"
+                android:shadowColor="#ffff1693"
+                android:singleLine="false"
+                android:textColor="#fffffefa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Eliminar"
+                android:id="@+id/btn_eliminar"
+                android:onClick="eliminar"
+                android:layout_weight="1"
+                android:background="#ffa5d0ff"
+                android:shadowColor="#ffff1693"
+                android:textColor="#fffffefa" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/modificar"
+                android:id="@+id/btn_modificar"
+                android:onClick="modificacion"
+                android:layout_weight="1"
+                android:background="#ffa5d0ff"
+                android:shadowColor="#ffff1693"
+                android:textColor="#fffffefa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limpiar"
+                android:id="@+id/btn_limpiar"
+                android:onClick="limpia"
+                android:layout_weight="1"
+                android:background="#ffa5d0ff"
+                android:shadowColor="#ffff1693"
+                android:textColor="#fffffefa" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
